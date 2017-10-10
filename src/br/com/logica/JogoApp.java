@@ -2,7 +2,7 @@ package br.com.logica;
 
 import java.util.Random;
 
-public class PalavraApp {
+public class JogoApp {
 
 	public static void main(String[] args) {
 		Palavra um =  new Palavra("Amor");
