@@ -6,6 +6,11 @@ public class Palavra {
 	private String palavra;
 	
 	
+	public Palavra(){
+		
+	}
+	
+	
 	public Palavra(String palavra){
 		this.setPalavra(palavra);
 	}
