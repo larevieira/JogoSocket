@@ -22,6 +22,7 @@ public class Palavra {
 	public void setPalavra(String palavra) {
 		this.palavra = palavra;
 	}
+	
 	@Override
 	public String toString(){
 		return this.getPalavra();

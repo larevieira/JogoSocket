@@ -9,12 +9,12 @@ public class Sorteio {
 	private Palavra palavraSorteada;
 
 	public Sorteio(){
-		this.palavraSorteada=new Palavra();
+		this.palavraSorteada = new Palavra();
 	}
 	
 	
 	public int getNumeroSorteado(ArrayList<Palavra> palavras){
-		Random r=new Random();
+		Random r = new Random();
 		this.setSorteio(r.nextInt(palavras.size()));
 		return sorteio;
 	}

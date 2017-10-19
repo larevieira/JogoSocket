@@ -35,10 +35,10 @@ public class JogoApp {
 		System.out.println(bb.getPalavras());
 		System.out.println(bb.getPalavras().size());
 		
-		Random r=new Random();
-		int sorteio=r.nextInt(bb.getPalavras().size());
+		Random r = new Random();
+		int sorteio = r.nextInt(bb.getPalavras().size());
 		
-		System.out.println("Numero Sorteado= "+sorteio);
+		System.out.println("Numero Sorteado= "+ sorteio);
 		
 		Palavra sorteada=bb.getPalavras().get(sorteio);
 		
@@ -53,7 +53,7 @@ public class JogoApp {
 		int cont = 0;
 		
 		for(int i=0; i<sorteada.getPalavra().length(); i++){
-			if(sorteada.getPalavra().charAt(i)== letra){
+			if(sorteada.getPalavra().charAt(i) == letra){
 				cont++;
 			}
 		}
@@ -70,7 +70,7 @@ public class JogoApp {
 		
 		
 		for(int i=0; i<sorteada.getPalavra().length(); i++){
-			if(sorteada.getPalavra().charAt(i)== letra){
+			if(sorteada.getPalavra().charAt(i) == letra){
 				System.out.print(letra);
 			}
 			else{
